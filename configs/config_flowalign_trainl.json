@@ -1,0 +1,35 @@
+{
+    "diffusion_unet_train": {
+        "batch_size": 24,
+        "cache_rate": 0,
+        "lr": 0.00001,
+        "n_epochs": 5000
+    },
+    "diffusion_unet_inference": {
+        "dim": [
+            128,
+            128,
+            128
+        ],
+        "spacing": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "top_region_index": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "bottom_region_index": [
+            0,
+            0,
+            1,
+            0
+        ],
+        "random_seed": 0,
+        "num_inference_steps": 1000,
+        "modality": 0
+    }
+}
